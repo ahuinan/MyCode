@@ -55,8 +55,6 @@ namespace MyCode.Project.WebApi
             //×¢²á»º´æ¶ÔÏó
             container.RegisterType<IMyCodeCacheService, RedisCache>(new InjectionConstructor(SystemConfig.RedisAddress, SystemConfig.CachePrefix));
 
-            //container.RegisterType<BaseAdminController>(new PerRequestLifetimeManager());
-        
             return container;
 		}
 

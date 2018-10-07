@@ -9,7 +9,6 @@
 7. 日志框架 : log4net
 8. 缓存 ：内存或Redis
 9. Api接口帮助：/swagger/，已按Area区域划分
-10、授权：JWT token
 
 ## 通用操作
 1. 明显能预知的异常，使用BaseException抛出

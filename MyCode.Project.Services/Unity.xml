@@ -20,9 +20,6 @@
           <lifetime type="singleton" />
         </register>-->
         
-     
-        <!--<register type="MyCode.Project.Domain.Config.SystemConfig,MyCode.Project.Domain" ><lifetime type="singleton" /></register>-->
-
       </container>
 
 
