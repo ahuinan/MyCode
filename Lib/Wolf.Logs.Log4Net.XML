@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wolf.Logs.Log4Net</name>
+    </assembly>
+    <members>
+        <member name="T:Wolf.Logs.Log4Net.ExceptionlessField">
+            <summary>
+            Exceptionless字段
+            </summary>
+        </member>
+        <member name="P:Wolf.Logs.Log4Net.ExceptionlessField.Key">
+            <summary>
+            键
+            </summary>
+        </member>
+        <member name="P:Wolf.Logs.Log4Net.ExceptionlessField.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.ExceptionlessField.#ctor(System.String,System.String)">
+            <summary>
+            初始化一个<see cref="T:Wolf.Logs.Log4Net.ExceptionlessField"/>类型的实例
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.ApiFormatter">
+            <summary>
+            Api格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ApiFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化一个<see cref="T:Wolf.Logs.Log4Net.Formats.ApiFormatter"/>类型的实例
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ApiFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.BusinessFormatter">
+            <summary>
+            业务格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.BusinessFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化业务格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.BusinessFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.CaptionFormatter">
+            <summary>
+            标题格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.CaptionFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化标题格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.CaptionFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.ClassFormatter">
+            <summary>
+            类格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ClassFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化类格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ClassFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.ContentFormatter">
+            <summary>
+            内容格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ContentFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化内容格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ContentFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.ErrorFormatter">
+            <summary>
+            错误格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ErrorFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化错误格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ErrorFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ErrorFormatter.AddErrorCode">
+            <summary>
+            添加错误码
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ErrorFormatter.AddError">
+            <summary>
+            添加错误消息
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.FormatterBase">
+            <summary>
+            日志消息基格式器
+            </summary>
+        </member>
+        <member name="P:Wolf.Logs.Log4Net.Formats.FormatterBase.Message">
+            <summary>
+            日志消息
+            </summary>
+        </member>
+        <member name="P:Wolf.Logs.Log4Net.Formats.FormatterBase.Result">
+            <summary>
+            输出结果
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.FormatterBase.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化一个<see cref="T:Wolf.Logs.Log4Net.Formats.FormatterBase"/>类型的实例
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.FormatterBase.Format">
+            <summary>
+            格式化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.FormatterBase.Add(System.String,System.String)">
+            <summary>
+            添加消息
+            </summary>
+            <param name="caption">标题</param>
+            <param name="value">值</param>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.IpFormatter">
+            <summary>
+            Ip格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.IpFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化Ip格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.IpFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.LogMessageFormatter">
+            <summary>
+            日志消息格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.LogMessageFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化日志消息格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.LogMessageFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.LogMessageFormatter.Add(Wolf.Logs.Log4Net.Formats.FormatterBase)">
+            <summary>
+            添加消息
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.ParamsFormatter">
+            <summary>
+            请求参数格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ParamsFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化类格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.ParamsFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.SqlFormatter">
+            <summary>
+            Sql格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.SqlFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化Sql格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.SqlFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.SqlParamsFormatter">
+            <summary>
+            Sql参数格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.SqlParamsFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化Sql参数格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.SqlParamsFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.StackTraceFormatter">
+            <summary>
+            堆栈跟踪格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.StackTraceFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化堆栈跟踪格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.StackTraceFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.TitleFormatter">
+            <summary>
+            标题格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.TitleFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化标题格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.TitleFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.TitleFormatter.AddLevel">
+            <summary>
+            添加日志级别
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.TitleFormatter.AddTraceId">
+            <summary>
+            添加跟踪号
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.TitleFormatter.AddTime">
+            <summary>
+            添加操作时间
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.TitleFormatter.AddTotalSeconds">
+            <summary>
+            添加已执行时间
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.UrlFormatter">
+            <summary>
+            Url格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.UrlFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化Url格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.UrlFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.UrlFormatter.AddUrl">
+            <summary>
+            添加Url
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Formats.UserFormatter">
+            <summary>
+            用户格式器
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.UserFormatter.#ctor(Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            初始化用户格式器
+            </summary>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Formats.UserFormatter.Format">
+            <summary>
+            格式化
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Layouts.CustomLayout">
+            <summary>
+            自定义log4net布局组件
+            </summary>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Layouts.CustomPatternLayoutConverter">
+            <summary>
+            自定义log4net布局转换组件
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Layouts.CustomPatternLayoutConverter.Convert(System.IO.TextWriter,log4net.Core.LoggingEvent)">
+            <summary>
+            转换
+            </summary>
+            <param name="writer">文本写入器</param>
+            <param name="loggingEvent">日志事件</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Layouts.CustomPatternLayoutConverter.LookupProperty(System.String,log4net.Core.LoggingEvent)">
+            <summary>
+            查找日志对象的属性值
+            </summary>
+            <param name="property">属性</param>
+            <param name="loggingEvent">日志事件</param>
+            <returns></returns>
+        </member>
+        <member name="T:Wolf.Logs.Log4Net.Log">
+            <summary>
+            Log4Net 日志
+            </summary>
+        </member>
+        <member name="F:Wolf.Logs.Log4Net.Log._log">
+            <summary>
+            log4net日志接口
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.#ctor(log4net.ILog,System.String)">
+            <summary>
+            初始化一个<see cref="T:Wolf.Logs.Log4Net.Log"/>类型的实例
+            </summary>
+            <param name="log">Log4Net日志组件</param>
+            <param name="traceId">跟踪号</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetLog">
+            <summary>
+            获取日志
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetLog(System.Object)">
+            <summary>
+            获取日志
+            </summary>
+            <param name="instance">实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetLog(System.String)">
+            <summary>
+            获取日志
+            </summary>
+            <param name="logName">日志名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetLogContext">
+            <summary>
+            获取日志上下文
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.CreateLogContext">
+            <summary>
+            创建日志上下文
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetMessage">
+            <summary>
+            获取日志消息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetUrl">
+            <summary>
+            获取Url
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetApplication">
+            <summary>
+            获取应用程序
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetTenant">
+            <summary>
+            获取租户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetIp">
+            <summary>
+            获取IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetHost">
+            <summary>
+            获取主机
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.GetBrowser">
+            <summary>
+            获取浏览器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.Clear">
+            <summary>
+            清理
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.DebugLog">
+            <summary>
+            写调试日志
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.InfoLog">
+            <summary>
+            写信息日志
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.WarnLog">
+            <summary>
+            写警告日志
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.ErrorLog">
+            <summary>
+            写错误日志
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.FatalLog">
+            <summary>
+            写致命错误日志
+            </summary>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.SubmitExceptionless(System.Action,Wolf.Infrastructure.Logs.LogMessage)">
+            <summary>
+            提交日志到Exceptionless
+            </summary>
+            <param name="action">操作</param>
+            <param name="message">日志消息</param>
+        </member>
+        <member name="M:Wolf.Logs.Log4Net.Log.ToLogLevel(Wolf.Infrastructure.Logs.LogLevel)">
+            <summary>
+            获取Exceptionless日志级别
+            </summary>
+            <param name="level">日志级别</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

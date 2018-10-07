@@ -1,0 +1,563 @@
+﻿{
+    "type": "1",
+    "paper": {
+        "style": {
+            "width": "595px",
+            "backgroundUrl": "null",
+            "paddingLeft": "10px",
+            "paddingRight": "10px",
+            "paddingTop": "10px",
+            "paddingBottom": "10px"
+        }
+    },
+    "editField": [
+        {
+            "type": "0",
+            "style": {
+                "height": "48px"
+            },
+            "fields": [
+                {
+                    "style": {
+                        "width": "575px",
+                        "height": "48px",
+                        "left": "0px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "36px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "center"
+                    },
+                    "content": "拣货批次",
+                    "type": "3"
+                }
+            ],
+            "customImg": []
+        },
+        {
+            "type": "1",
+            "style": {
+                "height": "72px"
+            },
+            "fields": [
+                {
+                    "content": "批次号",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "0px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.Sheet}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "62px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "批次名",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "191px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.Name}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "253px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+
+                    "type": "3"
+                },
+                {
+                    "content": "序列号",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "382px",
+                        "top": "0",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.SerialID}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "444px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "仓库",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "0px",
+                        "top": "24px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.StockName}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "62px",
+                        "top": "24px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "快递",
+                    "style": {
+                        "width": "56PX",
+                        "height": "24PX",
+                        "left": "191PX",
+                        "top": "24PX",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14PX",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.MerchantDeliveryName}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "253px",
+                        "top": "24px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "店铺",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "382px",
+                        "top": "24px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.InID}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "444px",
+                        "top": "24px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "支付模式",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "0px",
+                        "top": "48px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.PayMode}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "62px",
+                        "top": "48px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "发票",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "191px",
+                        "top": "48px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.InvoiceFlag}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "253px",
+                        "top": "48px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "打印次数",
+                    "style": {
+                        "width": "56px",
+                        "height": "24px",
+                        "left": "382px",
+                        "top": "48px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "right"
+                    },
+                    "type": "3"
+                },
+                {
+                    "content": "{{pickList.PrintTimes}}",
+                    "style": {
+                        "width": "129px",
+                        "height": "24px",
+                        "left": "444px",
+                        "top": "48px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "14px",
+                        "fontWeight": "normal",
+                        "textAlign": "left"
+                    },
+                    "type": "3"
+                }
+            ],
+            "customImg": []
+        },
+        {
+            "type": "2",
+            "style": {
+                "height": "12px",
+                "marginTop": "12px"
+            },
+            "fields": [
+                {
+                    "style": {
+                        "width": "43px",
+                        "height": "24px",
+                        "left": "0px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "right"
+                    },
+                    "content": "箱数:",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "80px",
+                        "height": "24px",
+                        "left": "45px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "center",
+                        "borderBottom": "1px solid #000"
+                    },
+                    "content": "",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "43px",
+                        "height": "24px",
+                        "left": "143px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "right"
+                    },
+                    "content": "拣货员:",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "80px",
+                        "height": "24px",
+                        "left": "188px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "center",
+                        "borderBottom": "1px solid #000"
+                    },
+                    "content": "",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "43px",
+                        "height": "24px",
+                        "left": "286px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "right"
+                    },
+                    "content": "包装员:",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "80px",
+                        "height": "24px",
+                        "left": "331px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "center",
+                        "borderBottom": "1px solid #000"
+                    },
+                    "content": "",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "43px",
+                        "height": "24px",
+                        "left": "429px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "right"
+                    },
+                    "content": "包装员:",
+                    "type": "3"
+                },
+                {
+                    "style": {
+                        "width": "80px",
+                        "height": "24px",
+                        "left": "474px",
+                        "top": "0px",
+                        "border": "none",
+                        "background": "null",
+                        "fontSize": "12px",
+                        "fontWeight": "bold",
+                        "lineHeight": "36px",
+                        "textAlign": "center",
+                        "borderBottom": "1px solid #000"
+                    },
+                    "content": "",
+                    "type": "3"
+                }
+            ],
+            "customImg": []
+        }
+    ],
+    "detailsList": {
+        "style": {
+
+        },
+        "thead": {
+            "style": {
+                "height": "36px",
+                "border": "1px solid #ccc"
+            }
+        },
+        "fields": [
+            {
+                "text": "拣货货位",
+                "field": "{{pickDetail.SpaceNameList}}",
+                "style": {
+                    "width": "90px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "商品名称",
+                "field": "{{pickDetail.GoodsName}}",
+                "style": {
+                    "width": "132px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "SKU",
+                "field": "{{pickDetail.CustomBC}}",
+                "style": {
+                    "width": "90px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "条码",
+                "field": "{{pickDetail.Barcode}}",
+                "style": {
+                    "width": "90px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "颜色",
+                "field": "{{pickDetail.Color}}",
+                "style": {
+                    "width": "40px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "尺码",
+                "field": "{{pickDetail.Size}}",
+                "style": {
+                    "width": "40px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "批次序号",
+                "field": "{{pickDetail.OrderNo}}",
+                "style": {
+                    "width": "63px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "text": "通知数",
+                "field": "{{pickDetail.Qty}}",
+                "style": {
+                    "width": "30px",
+                    "fontSize": "12px",
+                    "fontWeight": "normal",
+                    "textAlign": "center",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ]
+    }
+}

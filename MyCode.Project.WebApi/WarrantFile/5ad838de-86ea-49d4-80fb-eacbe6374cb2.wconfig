@@ -1,0 +1,4 @@
+{"PointX":272,"PointY":253,"FontSize":14,"FontStyle":"normal","FontColor":"#000000","DataSource":"Name","DataSourceType":0,"DateShowType":null,"DateAddYears":0,"IsRegular":false}
+{"PointX":273,"PointY":286,"FontSize":14,"FontStyle":"normal","FontColor":"#000000","DataSource":"Code","DataSourceType":0,"DateShowType":null,"DateAddYears":0,"IsRegular":false}
+{"PointX":273,"PointY":314,"FontSize":14,"FontStyle":"normal","FontColor":"#000000","DataSource":"CustomerGrade.Name","DataSourceType":0,"DateShowType":null,"DateAddYears":0,"IsRegular":false}
+{"PointX":233,"PointY":578,"FontSize":14,"FontStyle":"normal","FontColor":"#000000","DataSource":"CustomerDetail.EndDate","DataSourceType":0,"DateShowType":null,"DateAddYears":0,"IsRegular":false}

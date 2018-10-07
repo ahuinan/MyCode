@@ -1,0 +1,5 @@
+﻿{"PointX":66,"PointY":306,"FontSize":18,"FontStyle":"微软雅黑","FontColor":"#000000","DataSource":"Name","DataSourceType":0,"DateShowType":null,"DateAddYears":0,IsRegular:"true"}
+{"PointX":354,"PointY":306,"FontSize":18,"FontStyle":"微软雅黑","FontColor":"#000000","DataSource":"CustomerDetail.Wechat","DataSourceType":0,"DateShowType":null,"DateAddYears":0,IsRegular:"true"}
+{"PointX":143,"PointY":348,"FontSize":18,"FontStyle":"微软雅黑","FontColor":"#000000","DataSource":"CustomerGrade.Name","DataSourceType":0,"DateShowType":null,"DateAddYears":0,IsRegular:"true"}
+{"PointX":315,"PointY":546,"FontSize":16,"FontStyle":"微软雅黑","FontColor":"#000000","DataSource":"CustomerDetail.CreateTime","DataSourceType":1,"DateShowType":"yyyy年MM月dd日","DateAddYears":0,IsRegular:"true"}
+{"PointX":315,"PointY":582,"FontSize":16,"FontStyle":"微软雅黑","FontColor":"#000000","DataSource":"Code","DataSourceType":0,"DateShowType":null,"DateAddYears":0,IsRegular:"true"}

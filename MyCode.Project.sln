@@ -1,0 +1,140 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Designs", "Designs", "{7DA7AF38-10EF-4157-B270-511E3A58DF6E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{A39FF78B-7893-48F6-9011-990FACA1FDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.Infrastructure", "MyCode.Project.Infrastructure\MyCode.Project.Infrastructure.csproj", "{B047E3D9-BC3B-4926-954A-0085AD847E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.Domain", "MyCode.Project.Domain\MyCode.Project.Domain.csproj", "{83C7DD85-CA0F-4250-A4AD-B31DD56B14F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.Services", "MyCode.Project.Services\MyCode.Project.Services.csproj", "{E8C28F68-FF6F-40CB-9806-CA198AC542EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{994AEBE8-DEEB-4A08-9202-4473030CD15D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.OutSideService", "MyCode.Project.OutSideService\MyCode.Project.OutSideService.csproj", "{BC7E3726-8F90-4CA9-9269-731987907051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.WebApi", "MyCode.Project.WebApi\MyCode.Project.WebApi.csproj", "{145F5737-38B9-4A8F-BC02-6A292D991581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.Repositories", "MyCode.Project.Repositories\MyCode.Project.Repositories.csproj", "{4B3DA84D-1829-4896-BFA6-A9FA2E3D8F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{EC2A682C-494B-4F27-B7C4-95B6B02DB822}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\AutoMapper.dll = Lib\AutoMapper.dll
+		Lib\AutoMapper.xml = Lib\AutoMapper.xml
+		Lib\C5.dll = Lib\C5.dll
+		Lib\Common.Logging.dll = Lib\Common.Logging.dll
+		Lib\HtmlAgilityPack.dll = Lib\HtmlAgilityPack.dll
+		Lib\log4net.dll = Lib\log4net.dll
+		Lib\log4net.xml = Lib\log4net.xml
+		Lib\Microsoft.Practices.Unity.dll = Lib\Microsoft.Practices.Unity.dll
+		Lib\Microsoft.Practices.Unity.Interception.Configuration.dll = Lib\Microsoft.Practices.Unity.Interception.Configuration.dll
+		Lib\Microsoft.Practices.Unity.Interception.dll = Lib\Microsoft.Practices.Unity.Interception.dll
+		Lib\Microsoft.Practices.Unity.Interception.xml = Lib\Microsoft.Practices.Unity.Interception.xml
+		Lib\Microsoft.Practices.Unity.xml = Lib\Microsoft.Practices.Unity.xml
+		Lib\Newtonsoft.Json.dll = Lib\Newtonsoft.Json.dll
+		Lib\Newtonsoft.Json.xml = Lib\Newtonsoft.Json.xml
+		Lib\NPOI.dll = Lib\NPOI.dll
+		Lib\NPOI.OOXML.dll = Lib\NPOI.OOXML.dll
+		Lib\NPOI.OpenXml4Net.dll = Lib\NPOI.OpenXml4Net.dll
+		Lib\NPOI.OpenXmlFormats.dll = Lib\NPOI.OpenXmlFormats.dll
+		Lib\NPOI.xml = Lib\NPOI.xml
+		MyCode.Project.ScheduleJob\bin\Debug\Quartz.dll = MyCode.Project.ScheduleJob\bin\Debug\Quartz.dll
+		Lib\Quartz.Unity.45.dll = Lib\Quartz.Unity.45.dll
+		Lib\System.Web.Http.dll = Lib\System.Web.Http.dll
+		Lib\System.Web.Http.xml = Lib\System.Web.Http.xml
+		Lib\System.Web.Mvc.dll = Lib\System.Web.Mvc.dll
+		Lib\ThoughtWorks.QRCode.dll = Lib\ThoughtWorks.QRCode.dll
+		Lib\Unity.WebApi.dll = Lib\Unity.WebApi.dll
+		Lib\zxing.dll = Lib\zxing.dll
+		Lib\zxing.presentation.dll = Lib\zxing.presentation.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.ScheduleTask", "MyCode.Project.ScheduleTask\MyCode.Project.ScheduleTask.csproj", "{B233A390-43B5-4802-BD86-C0AE6C73E3DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameWork", "FrameWork", "{8D2B010E-7C91-4375-B93D-511ADE541A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlSugar", "FrameWork\SqlSugar\SqlSugar.csproj", "{489BB790-226C-4FAD-8D1E-51D72A7FF8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.GenerateCode", "MyCode.Project.GenerateCode\MyCode.Project.GenerateCode.csproj", "{CEBED289-22D5-4BA0-AB6D-50C32B22B031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swashbuckle.Core", "FrameWork\SwashbuckleEx\Swashbuckle.Core\Swashbuckle.Core.csproj", "{15E76579-E0C4-4CD4-9083-0E04F9FD531D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swashbuckle.WebHost", "FrameWork\SwashbuckleEx\Swashbuckle.WebHost\Swashbuckle.WebHost.csproj", "{31AD7304-29A6-4305-8A86-97516C1CF1C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B047E3D9-BC3B-4926-954A-0085AD847E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B047E3D9-BC3B-4926-954A-0085AD847E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B047E3D9-BC3B-4926-954A-0085AD847E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B047E3D9-BC3B-4926-954A-0085AD847E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C7DD85-CA0F-4250-A4AD-B31DD56B14F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C7DD85-CA0F-4250-A4AD-B31DD56B14F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C7DD85-CA0F-4250-A4AD-B31DD56B14F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C7DD85-CA0F-4250-A4AD-B31DD56B14F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C28F68-FF6F-40CB-9806-CA198AC542EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C28F68-FF6F-40CB-9806-CA198AC542EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C28F68-FF6F-40CB-9806-CA198AC542EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C28F68-FF6F-40CB-9806-CA198AC542EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7E3726-8F90-4CA9-9269-731987907051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7E3726-8F90-4CA9-9269-731987907051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7E3726-8F90-4CA9-9269-731987907051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7E3726-8F90-4CA9-9269-731987907051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145F5737-38B9-4A8F-BC02-6A292D991581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145F5737-38B9-4A8F-BC02-6A292D991581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145F5737-38B9-4A8F-BC02-6A292D991581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145F5737-38B9-4A8F-BC02-6A292D991581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3DA84D-1829-4896-BFA6-A9FA2E3D8F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3DA84D-1829-4896-BFA6-A9FA2E3D8F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3DA84D-1829-4896-BFA6-A9FA2E3D8F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3DA84D-1829-4896-BFA6-A9FA2E3D8F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B233A390-43B5-4802-BD86-C0AE6C73E3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B233A390-43B5-4802-BD86-C0AE6C73E3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B233A390-43B5-4802-BD86-C0AE6C73E3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B233A390-43B5-4802-BD86-C0AE6C73E3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489BB790-226C-4FAD-8D1E-51D72A7FF8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489BB790-226C-4FAD-8D1E-51D72A7FF8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489BB790-226C-4FAD-8D1E-51D72A7FF8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489BB790-226C-4FAD-8D1E-51D72A7FF8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBED289-22D5-4BA0-AB6D-50C32B22B031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBED289-22D5-4BA0-AB6D-50C32B22B031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBED289-22D5-4BA0-AB6D-50C32B22B031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBED289-22D5-4BA0-AB6D-50C32B22B031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E76579-E0C4-4CD4-9083-0E04F9FD531D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E76579-E0C4-4CD4-9083-0E04F9FD531D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E76579-E0C4-4CD4-9083-0E04F9FD531D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E76579-E0C4-4CD4-9083-0E04F9FD531D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AD7304-29A6-4305-8A86-97516C1CF1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AD7304-29A6-4305-8A86-97516C1CF1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AD7304-29A6-4305-8A86-97516C1CF1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AD7304-29A6-4305-8A86-97516C1CF1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{489BB790-226C-4FAD-8D1E-51D72A7FF8E5} = {8D2B010E-7C91-4375-B93D-511ADE541A2B}
+		{15E76579-E0C4-4CD4-9083-0E04F9FD531D} = {8D2B010E-7C91-4375-B93D-511ADE541A2B}
+		{31AD7304-29A6-4305-8A86-97516C1CF1C8} = {8D2B010E-7C91-4375-B93D-511ADE541A2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+		SolutionGuid = {22616349-AE54-419A-A4A5-7503567F2279}
+	EndGlobalSection
+EndGlobal

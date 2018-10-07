@@ -1,0 +1,78 @@
+﻿.primary-color {
+    color: #070707;
+}
+.title-color {
+    color: #070707;
+}
+.title-border-color {
+    border-color: #070707;
+}
+.text-color {
+    color: #F2EE12;
+}
+.text-border-color {
+    color: #F2EE12;
+}
+.disable-color {
+    color: #469916;
+}
+.disable-bg-color {
+    background-color: #469916;
+}
+.disable-border-color {
+    border-color: #469916;
+}
+.success-color {
+    color: #E6270A;
+}
+.success-bg-color {
+    background-color: #E6270A;
+}
+.warning-color {
+    color: #EA160A;
+}
+.warning-bg-color {
+    background-color: #EA160A;
+}
+.primary-bg-color {
+    background-color: #070707;
+}
+.primary-border-color {
+    border-color: #070707;
+}
+.pg-btn.disabled {
+    background: #469916;
+}
+.gesturepsw .patt-circ {
+    border-color: #070707;
+ }
+.gesturepsw .patt-circ.hovered .patt-big-dots {
+    background: #070707;
+}
+.gesturepsw .patt-error .patt-circ.hovered .patt-big-dots {
+    background: #EA160A;
+}
+.gesturepsw .patt-success .patt-circ.hovered .patt-big-dots {
+    background: #E6270A;
+}
+.gesturepsw .patt-error .patt-circ.hovered .patt-dots {
+    background: #EA160A;
+}
+.gesturepsw .patt-success .patt-circ.hovered .patt-dots {
+    background: #E6270A;
+}
+.gesturepsw .patt-dots {
+    background: #070707;
+}
+.gesturepsw .patt-circ.hovered .patt-dots {
+    background: #070707;
+}
+.gesturepsw .patt-success .patt-lines {
+    background: #E6270A;
+}
+.gesturepsw .patt-error .patt-lines {
+    background: #EA160A;
+}
+.gesturepsw .patt-lines {
+    background: #070707;
+}

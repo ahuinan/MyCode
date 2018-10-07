@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+ <Jobs>
+    <job name="Test"  desc="测试调度,每隔3秒"  enabled="true"  type="Wolf.Project.ScheduleJob.TestJob,Wolf.Project.ScheduleJob" CronExpression="0/3 * * * * ?" />
+    <job name="Test2"  desc="测试调度2,每隔30秒"  enabled="true"  type="Wolf.Project.ScheduleJob.Test2Job,Wolf.Project.ScheduleJob" CronExpression="0/30 * * * * ?" />
+</Jobs>

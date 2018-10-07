@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection,Microsoft.Practices.Unity.Configuration" />
+  </configSections>
+  <unity>
+    
+   <sectionExtension type="Microsoft.Practices.Unity.InterceptionExtension.Configuration.InterceptionConfigurationExtension, Microsoft.Practices.Unity.Interception.Configuration" />
+    <containers>
+      <container>
+
+        <extension type="Interception" />
+
+        <!--***********************SERVER和仓储、BLL改为自动注入，不需要在这里再配置**************************-->
+
+        <!--缓存-->
+        <!--<register type="MyCode.Project.Infrastructure.UnityExtensions.CachingCallHandler,MyCode.Project.Infrastructure"  />
+
+        <register type="MyCode.Project.Infrastructure.Cache.ICacheService,MyCode.Project.Infrastructure"  mapTo="MyCode.Project.Infrastructure.Cache.SystemCache,MyCode.Project.Infrastructure" >
+          <lifetime type="singleton" />
+        </register>-->
+        
+     
+        <!--<register type="MyCode.Project.Domain.Config.SystemConfig,MyCode.Project.Domain" ><lifetime type="singleton" /></register>-->
+
+      </container>
+
+
+
+
+    </containers>
+    
+  </unity>
+
+    
+
+
+</configuration>
+
+
+
