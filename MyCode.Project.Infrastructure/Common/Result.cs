@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace MyCode.Project.Infrastructure
 {
 
-    public class zai
+    public class Result
     {
         public Object Data { get; set; }
         public ResultCode ResultCode { get; set; }
