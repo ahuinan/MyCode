@@ -14,7 +14,7 @@
 1. 明显能预知的异常，使用BaseException抛出
 
 ```
-if (workprocess.Status != (int)WorkProcessStatus.STOP) {throw new BaseException("当前进程状态不是停止");}
+if (workprocess.Status != (int)WorkProcessStatus.Stop) {throw new BaseException("当前进程状态不是停止");}
 ```
 2. 写日志
 
