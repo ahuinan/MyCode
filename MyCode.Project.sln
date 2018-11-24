@@ -31,8 +31,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCode.Project.Repositories
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{EC2A682C-494B-4F27-B7C4-95B6B02DB822}"
 	ProjectSection(SolutionItems) = preProject
-		Lib\AutoMapper.dll = Lib\AutoMapper.dll
-		Lib\AutoMapper.xml = Lib\AutoMapper.xml
 		Lib\C5.dll = Lib\C5.dll
 		Lib\Common.Logging.dll = Lib\Common.Logging.dll
 		Lib\HtmlAgilityPack.dll = Lib\HtmlAgilityPack.dll
@@ -133,8 +131,8 @@ Global
 		{31AD7304-29A6-4305-8A86-97516C1CF1C8} = {8D2B010E-7C91-4375-B93D-511ADE541A2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
 		SolutionGuid = {22616349-AE54-419A-A4A5-7503567F2279}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
