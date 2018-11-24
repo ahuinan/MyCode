@@ -9,7 +9,7 @@ namespace MyCode.Project.Domain.Message.Request.User
     public class LoginRequest
     {
         /// <summary>
-        /// 账号
+        /// 登陆
         /// </summary>
         public string Account { get; set; }
 

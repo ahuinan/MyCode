@@ -170,8 +170,7 @@
   </Target>
   <PropertyGroup>
     <PreBuildEvent>xcopy /r /y $(SolutionDir)MyCode.Project.Services\Unity.xml $(SolutionDir)MyCode.Project.WebApi\bin\
-xcopy /r /y $(SolutionDir)MyCode.Project.Services\Unity.xml $(SolutionDir)MyCode.Project.ScheduleTask\bin\Debug\bin\
-</PreBuildEvent>
+xcopy /r /y $(SolutionDir)MyCode.Project.Services\Unity.xml $(SolutionDir)MyCode.Project.ScheduleTask\bin\Debug\bin\</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

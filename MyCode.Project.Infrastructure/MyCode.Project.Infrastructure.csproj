@@ -24,7 +24,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-    <DocumentationFile>bin\Debug\MyCode.Project.Infrastructure.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\MyCode.Project.Infrastructure.xml</DocumentationFile>
     <NoWarn>1591,1572</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">

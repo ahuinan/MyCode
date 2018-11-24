@@ -42,7 +42,7 @@ namespace MyCode.Project.WebApi.Controllers
         }
 
         /// <summary>
-        /// 获取缓存
+        /// 获取缓存Test
         /// </summary>
         [HttpGet]
         public object Get()
