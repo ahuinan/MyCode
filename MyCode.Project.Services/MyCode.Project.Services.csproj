@@ -102,7 +102,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoMapperManager.cs" />
     <Compile Include="BLL\ReprotExport\BaseExport.cs" />
     <Compile Include="BLL\ReprotExport\ExportTest2.cs" />
     <Compile Include="IJurisdictionService.cs" />
@@ -115,7 +114,6 @@
     <Compile Include="IUserService.cs" />
     <Compile Include="IBasicService.cs" />
     <Compile Include="IWorkProcessService.cs" />
-    <Compile Include="MapProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BLL\ReprotExport\ExportTestBLL1.cs" />
     <Compile Include="ServiceBase.cs" />

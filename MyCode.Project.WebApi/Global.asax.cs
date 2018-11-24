@@ -25,20 +25,13 @@ namespace MyCode.Project.WebApi
 
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-			//GlobalConfiguration.Configuration.MessageHandlers.Add(new CrosHandler());
 
 
 			log4net.Config.XmlConfigurator.Configure();
-            Services.AutoMapperManager.InitMap();
+    
 
-			//GlobalConfiguration.Configuration.MessageHandlers.Add(new RequestResponseTraceHandlerHandler(new SignalRLoggingRepository()));//添加WebApi请求日志监控
 
 		}
 
-		//public override void Init()
-		//{
-		//	this.PostAuthenticateRequest += (sender, e) => HttpContext.Current.SetSessionStateBehavior(SessionStateBehavior.Required);
-		//	base.Init();
-		//}
 	}
 }
