@@ -48,6 +48,8 @@ namespace MyCode.Project.Infrastructure.Search
         //    return this;
         //}
 
+       
+        #region AddCondition(为查询添加条件)
         /// <summary>
         /// 为查询添加条件
         /// <example>
@@ -63,17 +65,22 @@ namespace MyCode.Project.Infrastructure.Search
         /// string conditionSql = searchObj.BuildConditionSql();
         /// </example>
         /// </summary>
-        /// <param name="fielName">字段名称</param>
+        /// <param name="fieldName">字段名称</param>
         /// <param name="fieldValue">字段值</param>
         /// <param name="sqlOperator">SqlOperator枚举类型</param>
-        /// <param name="excludeIfEmpty">如果字段为空或者Null则不作为查询条件</param>
+        /// <param name="IfExclude">是否排除，比如!string.isNullOrEmpty(key)</param>
         /// <returns></returns>
-        public SearchCondition AddCondition(string fielName, object fieldValue, SqlOperator sqlOperator, bool excludeIfEmpty)
+        public SearchCondition AddCondition(string fieldName, object fieldValue, SqlOperator sqlOperator, bool ifExclude)
         {
-            this.conditionTable.Add(fielName, new SearchInfo(fielName, fieldValue, sqlOperator, excludeIfEmpty));
+            this.conditionTable.Add(fieldName, new SearchInfo(fieldName, fieldValue, sqlOperator, ifExclude));
             return this;
         }
+        #endregion
 
+
+
+
+        #region AddSqlCondition(增加SQL的条件语句)
         /// <summary>
         /// 增加SQL的条件语句
         /// </summary>
@@ -90,7 +97,9 @@ namespace MyCode.Project.Infrastructure.Search
             this.conditionTable.Add(sql, new SearchInfo(sql, "", SqlOperator.Sql, excludeIfEmpty));
             return this;
         }
+        #endregion
 
+        #region BuildConditionSql(生成Sql条件语句)
         /// <summary>
         /// 根据对象构造相关的条件语句（不使用参数），如返回的语句是:
         /// <![CDATA[
@@ -143,7 +152,7 @@ namespace MyCode.Project.Infrastructure.Search
                     }
 
                 }
-                else if (searchInfo.SqlOperator == SqlOperator.Include)
+                else if (searchInfo.SqlOperator == SqlOperator.In)
                 {
                     var list = (IList)searchInfo.FieldValue;
                     StringBuilder sbInSQL = new StringBuilder();
@@ -178,10 +187,9 @@ namespace MyCode.Project.Infrastructure.Search
 
             return new BuildSqlReturnModel() { Sql = sql, ListParameter = parameters };
         }
+        #endregion
 
-
-
-        #region 辅助函数
+        #region ConvertSqlOperator(操作符转换为对应的Sql)
 
         /// <summary>
         /// 转换枚举类型为对应的Sql语句操作符号
@@ -214,7 +222,7 @@ namespace MyCode.Project.Infrastructure.Search
                 case SqlOperator.NotEqual:
                     stringOperator = " <> ";
                     break;
-                case SqlOperator.Include:
+                case SqlOperator.In:
                     stringOperator = " in ";
                     break;
                 default:
@@ -223,7 +231,9 @@ namespace MyCode.Project.Infrastructure.Search
 
             return stringOperator;
         }
+        #endregion
 
+        #region GetFieldDbType(根据传入对象的值类型获取其对应的DbType类型)
         /// <summary>
         /// 根据传入对象的值类型获取其对应的DbType类型
         /// </summary>

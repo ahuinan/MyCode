@@ -40,7 +40,8 @@ LEFT JOIN
 
 
             var where = new SearchCondition();
-            where.AddCondition("L.MerchantID",merchantId, SqlOperator.Equal,true);
+            
+            where.AddCondition("L.MerchantID",merchantId,SqlOperator.Equal, true);
             //where.AddSqlCondition("L.Login like '%' + @key + '%'",
             //    true,
             //    new SugarParameter("key", "a")); 

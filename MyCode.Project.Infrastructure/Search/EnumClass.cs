@@ -47,24 +47,12 @@ namespace MyCode.Project.Infrastructure.Search
 		/// <summary>
 		/// 生成ADN IN('','')这种
 		/// </summary>
-		Include,
+		In,
 
 		/// <summary>
 		/// SQL语句
 		/// </summary>
 		Sql
-        /*
-        不支持下面两个符号
-        
-        /// <summary>
-        /// 在某个值的中间，拆成两个符号 >= 和 <=
-        /// </summary>
-        Between,
 
-        /// <summary>
-        /// 在某个字符串值中
-        /// </summary>
-        In
-        */
     }
 }

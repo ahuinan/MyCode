@@ -238,6 +238,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="login.htm" />
     <Content Include="Page.aspx" />
     <Content Include="PrintCommonTemplate\DeliverySheet.xml" />
     <Content Include="PrintCommonTemplate\PickSheet.xml" />
